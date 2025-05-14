@@ -1,2 +1,0 @@
-# curriculum
-mi portafolio digital
