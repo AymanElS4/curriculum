@@ -11,23 +11,42 @@
 <body >
     <header>
     <h1>Curriculum Vitae</h1>
-        <h2>Ayman El Salous</h2>
+        <h2>Ayman El Salous</h2> <img src="fotos/nuo.jpg" alt="Foto de perfil" width="150" height="150">
         <nav>
             <ul>
-             <li><a href="#informacióncont">Información de Contacto</a></li>
+                <li><a href="#perfil">Perfil</a></li>
+                <li><a href="#informacióncont">Información de Contacto</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#experiencia">Experiencia</a></li>
                 <li><a href="#educacion">Educación</a></li>
                 <li><a href="#lenguajes">Lenguajes</a></li>
+                <li><a href="#formulario">Contáctame</a></li>
             </ul>
         </nav>
     </header>
     <main>
+    <section id="perfil">
+        <h3>Perfil</h3>
+        
+        <p>Orgullosamente ecuatoriano</p>
+        <p><iframe width="560" height="315" src="https://www.youtube.com/embed/G3HKP9DxywQ?si=47lQfTGaG0P5N_xq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+            
+    </section>
     <section id="informacióncont">
         <h3>Información de Contacto</h3>
-        <p><strong>Correo:</strong> Ayman El Salous</p>
+        
+        <p><strong>Correo:</strong> ayme@espol.edu.ec</p>
         <p><strong>Teléfono:</strong> +593 99 239 8539</p>
-        <p><strong>LinkedIn:</strong></p>
+        <p><strong>LinkedIn:</strong> <a href="https://ec.linkedin.com/in/ayman-el-salous-mu%C3%B1oz-602000292">Ayman El Salous</a></p>
+        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31896.12
+            132298742!2d-80.00061828916014!3d-2.1478802000000035!2m3!1
+            f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d72f925e
+            5bfdb%3A0x327cdb9f7f4ba3b2!2sEscuela%20Superior%20Polit%C3
+            %A9cnica%20del%20Litoral%20(ESPOL)!5e0!3m2!1ses-419!2sec!4
+            v1747679816136!5m2!1ses-419!2sec" width="400" height="300"
+             style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer
+             -when-downgrade"></iframe>
+        </p>
     </section>
     <section id="habilidades">
         <h3>Habilidades</h3>
@@ -53,18 +72,86 @@
               
     <section id="lenguajes">
         <h3>Lenguajes</h3> 
-        
-        <tr>Inglés C1</tr>
+        <table border="1">
+        <tr>
+            <td>&nbsp;</td>
+            <td>Inglés</td>
+            <td>Español</td>
+            <td>Árabe</td>
+        </tr>
+        <tr>
+            <td>Nativo</td> 
+            <td>&nbsp;</td>
+            <td> X</td>
+            <td>&nbsp;</td> 
             
-        
-        
-        <tr>Español Nativo</tr>
+            
+        </tr>
+         <tr>
+            <td>Avanzado</td>
+            <td> X</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            
+        </tr>
+         <tr>
+            <td>Intermedio</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            
+        </tr>
+         <tr>
+            <td>Básico</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>X</td>
+        </tr>
+        </table>
+    </section>
+    <section id="formulario">
+        <h3>Contáctame</h3>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <fieldset>
+
+                <legend>Género:</legend>
+                <input type="radio" id="masculino" name="genero" value="masculino">
+                <label for="masculino">Masculino</label><br>
+                <input type="radio" id="femenino" name="genero" value="femenino">
+                <label for="femenino">Femenino</label><br>
+                
+            </fieldset>
+           
+
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
     </section>
     </main>
     <footer>
         <section id=referencias>
             <h3>Referencias</h3>
-            <p>Disponibles a solicitud.</p>"
+            <article>
+            <p><strong>Jefferson Saltos:</strong></p>
+            <p>Compañero de trabajo</p>
+            <blockquote>"Consigue más cables por fa"</blockquote>
+            <p><strong>Contacto:</strong> [correo@ejemplo.com] | [+593 99 999 9999]</p>
+            </article>
+            <article>
+            <p><strong>Sebastian Mnazanilla:</strong></p>
+            <p>Compañero de trabajo</p>
+            <blockquote>"Como tú dijiste"</blockquote>
+            <p><strong>Contacto:</strong> [correo@ejemplo.com] | [+593 99 999 9999]</p>
+            </article>
+
+
         </section>
         <p>&copy; 2023 Ayman El Salous. Todos los derechos reservados.</p>    
     </footer>
