@@ -27,7 +27,7 @@ footer p{
 }
 #photo{
     height:auto;
-    width:10vw;
+    width:12vw;
 }
 section{
     border:0.2px;
@@ -45,4 +45,12 @@ section{
     -webkit-box-shadow: 3px 3px 1px 0px rgba(235, 234, 234, 0.60);
     -moz-box-shadow: 3px 3px 1px 0px rgba(235, 234, 234, 0.60);
     box-shadow: 3px 3px 1px 0px rgba(235, 234, 234, 0.60);
+}
+
+nav >ul {
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items:center;
+    gap: 1rem;
 }
