@@ -10,6 +10,11 @@ body{
 p{
     font-family: "Numans";
 }
+.nombreprin{
+    font-family: "Numans";
+    font-size: 1.5rem;
+    font-weight: 500;
+}
 
 h2{
     font-family: "Exo";
@@ -21,6 +26,16 @@ h1{
     font-family: "Cinzel";
 
 
+}
+
+
+#experienciaeducacion{
+    display: flex;
+    gap: 2rem; 
+    justify-content: space-between;
+}
+#experienciaeducacion > section{
+    flex: 1 1 calc(50.00% - 1rem);
 }
 h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -100,6 +115,12 @@ form > input#nombre{
 }
 form > input#email{
     width: 50%;
+}
+form > fieldset{
+    width:48.5%;
+}
+form > textarea#mensaje{
+   width:50%;
 }
 form >.Enviar{
     background-color:rgb(40, 88, 233);
