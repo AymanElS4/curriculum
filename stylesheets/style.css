@@ -101,7 +101,21 @@ form > input#nombre{
 form > input#email{
     width: 50%;
 }
+form >.Enviar{
+    background-color:rgb(40, 88, 233);
+    color:white;
+    padding: 0.5rem;
+    border: none;
+    width:50%;
+    border-radius:10px;
+}
+.Enviar:hover{
+    background-color: rgb(44, 44, 255);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-weight:500;
 
+}
  section > form{
     display:grid;
     grid-template-columns: 1fr;
