@@ -45,8 +45,9 @@ h1 {
   from, to { border-color: transparent }
   50% { border-color: orange; }
 }
- nav > ul{
-    list-style: none;
+ nav > ul >li >  a{
+    color:black;
+    text-decoration: none;
  }
  
  .subtitle{

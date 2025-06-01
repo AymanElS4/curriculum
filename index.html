@@ -16,7 +16,7 @@
 <body >
     <header>
     <h1>Curriculum Vitae</h1>
-        <h2>Ayman El Salous</h2> <img id="photo" src="fotos/nuo.jpg" alt="Foto de perfil" width="150" height="150">
+        
         <nav>
             <ul>
                 <li><a href="#perfil">Perfil</a></li>
@@ -31,9 +31,11 @@
     </header>
     <main>
     <section id="perfil">
+
         <h2 class="subtitle">Perfil</h2>
+        <h2>Ayman El Salous</h2> <img id="photo" src="fotos/nuo.jpg" alt="Foto de perfil" width="150" height="150">
         
-        <p>Orgullosamente ecuatoriano</p>
+        <p>Ecuatoriano</p>
         <p><iframe width="560" height="315" src="https://www.youtube.com/embed/G3HKP9DxywQ?si=47lQfTGaG0P5N_xq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
             
     </section>
@@ -63,17 +65,21 @@
             <li>Java</li>
             <li>SQL</li>
             <li>Hago buenas presentaciones</li>
+            <li>Estoy dispuesto a aprender</li>
         </ul>
     </section>
     <section id="experiencia">
         <h2 class="subtitle">Experiencia</h2>
-        
+        <p>No tengo ninguna experiencia actualmente, pero estoy intentando trabajar en diferentes proyectos relacionados a IA y ciberseguridad.</p>
         
         
     </section>
     <section id="educacion">
         <h2 class="subtitle">Educación</h2>
-        <p><strong>Grado en Ingeniería en Computación</strong> - Espol(2023 - presente)</p>
+        <ol>
+            <li><p><strong>Bachiller en Ciencias</strong>Unidad Educativa Montessori(2004-2023)</p></li>
+            <li><p><strong>Grado en Ingeniería en Computación</strong> - Espol(2023 - presente)</p></li>
+        </ol>
     </section>
               
     <section id="lenguajes">
@@ -118,24 +124,24 @@
     <section id="formulario">
         <h2 class="subtitle">Contáctame</h2>
         <form action="#" method="post">
-            <label for="nombre">Nombre:</label><br>
-            <input type="text" id="nombre" name="nombre" required><br><br>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
 
-            <label for="email">Correo electrónico:</label><br>
-            <input type="email" id="email" name="email" required><br><br>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
             <fieldset>
 
             <legend>Género:</legend>
             <input type="radio" id="masculino" name="genero" value="masculino">
-            <label for="masculino">Masculino</label><br>
+            <label for="masculino">Masculino</label>
             <input type="radio" id="femenino" name="genero" value="femenino">
-            <label for="femenino">Femenino</label><br>
+            <label for="femenino">Femenino</label>
                 
             </fieldset>
            
 
-            <label for="mensaje">Mensaje:</label><br>
-            <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
 
             <button type="submit">Enviar</button>
         </form>
