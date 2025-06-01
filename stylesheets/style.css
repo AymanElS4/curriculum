@@ -94,10 +94,18 @@ form{
     margin-top: 0cm;
     unicode-bidi: isolate;
 }
+form > input#nombre{
+    width: 50%;
+    
+}
+form > input#email{
+    width: 50%;
+}
 
  section > form{
     display:grid;
     grid-template-columns: 1fr;
+    gap: 1rem;
     column-gap: 1rem;
  }
 
